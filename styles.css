@@ -26,6 +26,8 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
+    align-items: center;
 }
 
 .container {
@@ -41,6 +43,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -56,4 +59,33 @@ body {
 .container__titulo {
     font-weight: 700px;
     font-size: 28px;
+}
+
+.container__imagem {
+    margin: 1em 0em 2em 0em;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario_botao {
+    display: inline-block;
+    margin-top: 1em;
 }
